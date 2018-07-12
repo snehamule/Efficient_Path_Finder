@@ -152,8 +152,6 @@ class Search:
                 
                 # Remove minimum value from Frontier and it's cost from total cost dictionary
                 del totalCostDictionary[minValuePath]
-                print('New Total Dict',totalCostDictionary)
-                print("**********************************************")
             else:    
                 openListState = state.State(frontier[-1].current_x,frontier[-1].current_y)
                 openListState.currentPosition=frontier[-1].currentPosition
@@ -170,8 +168,7 @@ class Search:
                 return solution,openlist,closedList        
                 
                 
-            print("**********************************************")
-        
+     
         
                 
                 
