@@ -25,5 +25,11 @@ If python is not installed then need to install python:<br />
 ## Check python version:
 python -version
 
+## Run program : <br />
+
+1. To run Efficient path finder program
+```
+	python search.py
+```
 
 
